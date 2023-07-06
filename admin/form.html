@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Form add tin</h1>
+    <form action="form.php" method="post">
+        <table>
+            <tr>
+                <td> Tên Tin</td>
+                <td><input type="text" name="tieude" id="" class="tieude"></td>
+            </tr>
+            <tr>
+                <td> Tóm Tắt</td>
+                <td><input type="text" name="tomtat" id="" class="tomtat"></td>
+            </tr>
+            <tr>
+                <td> urlHinh</td>
+                <td><input type="file" name="urlHinh" id="" class="urlHinh"></td>
+            </tr>
+            <tr>
+                <td> Ngày</td>
+                <td><input type="date" name="ngay" id="" class="ngay"></td>
+            </tr>
+            <tr>
+                <td> idUser</td>
+                <td><input type="text" name="idUser" id="" class="idUser"></td>
+            </tr>
+            <tr>
+                <td> idSK</td>
+                <td><input type="text" name="idSK" id="" class="idSK"></td>
+            </tr>
+            <tr>
+                <td> idLT</td>
+                <td><input type="text" name="idLT" id="" class="idLT"></td>
+            </tr>
+            <tr>
+                <td> Ẩn Hiện</td>
+                <td>
+                    <select name="AnHien" id="AnHien">
+                    <option value="0" selected>Ẩn</option>
+                    <option value="1" >Hiện</option>
+                </select>
+                </td>
+
+            </tr>
+            <tr>
+                <td><button type="submit">ADD</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
